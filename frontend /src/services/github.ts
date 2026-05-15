@@ -12,7 +12,7 @@ import { sleep } from '../utils/cn';
 // GITHUB API SERVICE
 // ============================================================
 
-const GITHUB_API_BASE = 'https://devflow-ai-production-36ad.up.railway.app/api';
+const GITHUB_API_BASE = 'https://devflow-ai-production-2fcc.up.railway.app/api';
 
 function getHeaders(): HeadersInit {
   const { settings } = useSettingsStore.getState();
