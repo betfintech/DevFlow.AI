@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: devflow-ai-frontend
+    runtime: node
+    buildCommand: npm install && npm run build
+    startCommand: npm run preview
+    envVars:
+      - key: VITE_API_URL
+        value: https://devflow-ai-backend.onrender.com/api
